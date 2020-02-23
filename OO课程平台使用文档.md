@@ -1,12 +1,12 @@
 # OO课程平台使用文档
 
-此文档演示了使用OO课程平台完成实验的完整流程以及使用的注意事项。为保证实验课的顺利进行，请同学们及时阅读并了解。
+此文档演示了使用[OO课程平台](https://course.buaaoo.top/)完成实验的完整流程以及使用的注意事项。为保证实验课的顺利进行，请同学们及时阅读并了解。
 
 ## 代码的提交
 
-再实验开始之前，建议提前配置好SSH以节省时间，SSH的配置已在相关文档中进行了说明。
+在实验开始之前，建议提前配置好SSH以节省时间，SSH的配置已在[相关文档](https://github.com/Ailsa99/guide_book_public/blob/master/git-guide/git风格指南.md)中进行了说明。
 
-登陆课程的GitLab，找到本次实验对应的仓库，并复制本仓库对应的SSH URL地址，如下图所示：
+登录课程的GitLab，找到本次实验对应的仓库，并复制本仓库对应的SSH URL地址，如下图所示：
 
 <img src="pic/0.png" alt="0" style="zoom:50%;" />
 
@@ -16,7 +16,7 @@
 
 ```
 git init
-git remote add origin git@gitlab.buaaoo.top:oo_2019_homeworks/xxxx.git 
+git remote add origin git@gitlab.buaaoo.top:oo_2020_homeworks/xxxx.git 
 ```
 
 然后在此工作目录中完成你的代码，当代码完成后，将其push到仓库中：
@@ -27,7 +27,7 @@ git commit -m "message"
 git push -u origin master
 ```
 
-然后，登陆OO课程平台，在对应的实验的最下方作答区域中，点击“要提交的commit”，从下拉列表中选择要提交的commit，
+然后，登录OO课程平台，在对应的实验的最下方作答区域中，点击“要提交的commit”，从下拉列表中选择要提交的commit，
 
 <img src="pic/1.png" alt="1" style="zoom:50%;" />
 
